@@ -25,7 +25,6 @@ def test_model_4(model, size):
     run.test(data_test, model)
 
 # binary
-# teste
 def do_binary():
     path = 'idrid_datast/500/'
     data_lebel = pd.read_csv('idrid_datast/train.csv')
