@@ -12,7 +12,7 @@ This solution uses a hierarchical combination of deep neural networks for the cl
 
 Coarse Network (binary classification) ...................................: 80.58% \
 Fine Network (multi-class classification) ...............................: 58.33% \
-CF-DRNet (final classification) ............................................: 56.19% 
+CF-DRNet (final classification) ..............................................: 56.19% 
 
 
 ### This solution - Results
