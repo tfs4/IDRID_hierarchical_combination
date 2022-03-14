@@ -104,8 +104,6 @@ def test_full_models(model_binary, model_mc, limit, size_1, size_2):
 
 if __name__ == '__main__':
 
-
-
     pre.preprocessing("idrid_datast/test/")
     pre.preprocessing("idrid_datast/train/")
     idrid.do_augmentation('idrid_datast/train.csv', 'idrid_datast/500/train/')
