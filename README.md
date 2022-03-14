@@ -10,7 +10,7 @@ This solution uses a hierarchical combination of deep neural networks for the cl
 
 ### Coarse-to-fine classification for diabetic retinopathy grading using convolutional neural network - Results
 
-Coarse Network (binary classification) ...................................: 80.58% \
+Coarse Network (binary classification) ..................................: 80.58% \
 Fine Network (multi-class classification) ...............................: 58.33% \
 CF-DRNet (final classification) ..............................................: 56.19% 
 
