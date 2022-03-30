@@ -1,5 +1,7 @@
 # IDRID_hierarchical_combination
-solution for sub-challenge 2 IDRID Dataset ( https://idrid.grand-challenge.org/ ) based on a hierarchical combination 
+Solution for sub-challenge 2 IDRID Dataset ( https://idrid.grand-challenge.org/ ) based on a hierarchical combination 
+
+Our solution would get third place in the final ranking of the competition if the use of extra training data ( https://pubmed.ncbi.nlm.nih.gov/31671320/ )
 
 
 Based on the idea presented in the paper "Coarse-to-fine classification for diabetic retinopathy grading using convolutional neural network" (https://www.sciencedirect.com/science/article/pii/S0933365720301354)
