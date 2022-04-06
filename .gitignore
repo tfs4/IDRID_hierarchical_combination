@@ -4,3 +4,5 @@
 *.pyc
 augmentation.csv
 *.pyc
+models/binary_model.pt
+.idea/workspace.xml

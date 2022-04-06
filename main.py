@@ -68,8 +68,8 @@ def do_mc():
     train, valid = idrid.get_data_loader_4_classes(path, data_lebel, x, aug = data_augmentation,  aug_path='augmentation')
     classificador = model.get_densenet121_mc()
 
-    path_loader = torch.load('models/model_mc_aug_plus.pt')
-    classificador.load_state_dict(path_loader)
+    #path_loader = torch.load('models/model_mc_aug_plus.pt')
+    #classificador.load_state_dict(path_loader)
 
 
     criterion = torch.nn.CrossEntropyLoss(weight=class_weights)
@@ -112,7 +112,7 @@ if __name__ == '__main__':
     LR = 0.0001
     BATCH = 15
     EPOCHS = 100
-    do_binary()
+    #do_binary()
 
     LR = 0.0001
     BATCH = 15
